@@ -63,3 +63,8 @@ footer {
     width: 100%;
     bottom: 0;
 }
+/* Add styles for the active link */
+nav ul li a.active {
+    font-weight: bold;
+    color: #ff0000;
+}
