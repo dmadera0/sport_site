@@ -24,7 +24,7 @@ function fetchTeamsData() {
             console.log(data);
             updateTeamsSection(data);
         })
-        .catch(error => console.error('Error fetching data:', error));
+        .catch(error => console.error('CORS error: ', error));
 }
 // function fetchTeamsData() {
 //     const apiKey = 'GXmTJ5RmOM23HAVB5Kao72jdM1ys74rE7OHrIBn1';
