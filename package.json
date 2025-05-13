@@ -19,8 +19,8 @@
   "homepage": "https://github.com/dmadera0/sport_site#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "axios": "^1.9.0"
   }
-  
-  
 }
-
