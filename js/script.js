@@ -1,3 +1,5 @@
+import someModule from './someModule.js';
+const someLibrary = require('some-library');
 const express = require('express');
 const cors = require('cors');
 const app = express();
